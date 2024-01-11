@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { useEffect, useState } from 'react'
 import SearchResult from './components/SearchResults/SearchResult'
 
-export const BASE_URL = "http://localhost:9000"
+export const BASE_URL = "https://restaurent-server-xi.vercel.app"
 
 const App = () => {
   const [data, setData] = useState(null)
